@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura del Fútbol en Inglaterra</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-title">
+        <img src="img/logo.png" alt="Logotipo del sitio" class="logo">
+        <h1>Fútbol en Inglaterra</h1>
+    </div>
+    
+    <button class="menu-toggle" id="mobile-menu-btn" aria-label="Abrir menú">☰</button>
+
+    <nav id="nav-menu">
+        <a href="#">Inicio</a>
+        <a href="history-es.html">Historia</a>
+        
+        <div id="clubs-menu">
+            <a href="#clubs-section" id="clubs-link">Clubes ▼</a>
+            <div id="submenu">
+                <a href="#" id="link-premier">Premier League</a>
+                <a href="#" id="link-championship">Championship</a>
+            </div>
+        </div>
+
+        <a href="culture-es.html">Cultura</a>
+        <a href="index.html" class="lang-btn">EN</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="img/estadio1.jpg" alt="Estadio de Wembley">
+                <div class="hero-content">
+                    <h2>Cultura del fútbol en Inglaterra</h2>
+                    <p id="greeting-text">Tradición, pasión e historia.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/estadio2.jpg" alt="Estadio Old Trafford">
+                <div class="hero-content">
+                    <h2>Los Mejores Estadios</h2>
+                    <p>Explora la casa del fútbol inglés.</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="prevBtn" class="slider-btn">❮</button>
+        <button id="nextBtn" class="slider-btn">❯</button>
+    </section>
+
+    <section class="clubs" id="clubs-section">
+        <h2>Clubes Ingleses Destacados</h2>
+
+        <div class="club-container" id="premier-clubs">
+            <div class="card united">
+                <img src="img/manchester-united-logo.png" alt="Logo Manchester United" class="club-logo"> 
+                <h3>Manchester United</h3>
+                <p>Uno de los clubes más exitosos en la historia del fútbol inglés.</p>
+            </div>
+
+            <div class="card liverpool">
+                <img src="img/364.png" alt="Logo Liverpool FC" class="club-logo">
+                <h3>Liverpool FC</h3>
+                <p>Conocido por su apasionada afición y éxito en Europa.</p>
+            </div>
+
+            <div class="card city">
+                <img src="img/manchester-city-logo.png" alt="Logo Manchester City" class="club-logo"> 
+                <h3>Manchester City</h3>
+                <p>Dominante en años recientes con un estilo de fútbol moderno.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <button id="btn-championship">Ver clubes de la Championship</button>
+        </div>
+
+        <div class="club-container" id="championship-clubs" style="display: none; margin-top: 30px;">
+            <div class="card">
+                <img src="img/leeds.png" alt="Logo Leeds United" class="club-logo" style="border-color: #fbd624;"> 
+                <h3>Leeds United</h3>
+                <p>Un club histórico y apasionado con una base de aficionados masiva.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/sunderland.png" alt="Logo Sunderland" class="club-logo" style="border-color: #eb172b;">
+                <h3>Sunderland AFC</h3>
+                <p>Conocido por su increíble estadio y seguidores leales.</p>
+            </div>
+
+            <div class="card">
+                <img src="img/sheffield.png" alt="Logo Sheffield Wednesday" class="club-logo" style="border-color: #0e1e5b;"> 
+                <h3>Sheffield Wed.</h3>
+                <p>Uno de los clubes de fútbol profesional más antiguos del mundo.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Creado por Santiago Andrade Ordoñez - 2026</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

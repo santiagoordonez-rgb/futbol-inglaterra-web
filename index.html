@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Culture in England</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-title">
+        <img src="img/logo.png" alt="Site Logo" class="logo">
+        <h1>Football in England</h1>
+    </div>
+    
+    <button class="menu-toggle" id="mobile-menu-btn" aria-label="Open menu">☰</button>
+
+    <nav id="nav-menu">
+        <a href="#">Home</a>
+        <a href="history.html">History</a>
+        
+        <div id="clubs-menu">
+            <a href="#clubs-section" id="clubs-link">Clubs ▼</a>
+            <div id="submenu">
+                <a href="#" id="link-premier">Premier League</a>
+                <a href="#" id="link-championship">Championship</a>
+            </div>
+        </div>
+
+        <a href="culture.html">Culture</a>
+        <a href="index-es.html" class="lang-btn">ES</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="img/estadio1.jpg" alt="Wembley Stadium">
+                <div class="hero-content">
+                    <h2>Football culture in England</h2>
+                    <p id="greeting-text">Tradition, passion and history.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/estadio2.jpg" alt="Old Trafford Stadium">
+                <div class="hero-content">
+                    <h2>The Best Stadiums</h2>
+                    <p>Explore the home of English football.</p>
+                </div>
+            </div>
+        </div>
+        <button id="prevBtn" class="slider-btn">❮</button>
+        <button id="nextBtn" class="slider-btn">❯</button>
+    </section>
+
+    <section class="clubs" id="clubs-section">
+        <h2>Top English Clubs</h2>
+
+        <div class="club-container" id="premier-clubs">
+            <div class="card united">
+                <img src="img/manchester-united-logo.png" alt="Manchester United logo" class="club-logo"> 
+                <h3>Manchester United</h3>
+                <p>One of the most successful clubs in English football history.</p>
+            </div>
+            <div class="card liverpool">
+                <img src="img/364.png" alt="Liverpool FC logo" class="club-logo">
+                <h3>Liverpool FC</h3>
+                <p>Known for its passionate fans and European success.</p>
+            </div>
+            <div class="card city">
+                <img src="img/manchester-city-logo.png" alt="Manchester City FC logo" class="club-logo"> 
+                <h3>Manchester City</h3>
+                <p>Dominant in recent years with modern football style.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <button id="btn-championship">Show Championship Clubs</button>
+        </div>
+
+        <div class="club-container" id="championship-clubs" style="display: none; margin-top: 30px;">
+            <div class="card">
+                <img src="img/leeds.png" alt="Leeds United logo" class="club-logo" style="border-color: #fbd624;"> 
+                <h3>Leeds United</h3>
+                <p>A historic and passionate club with a massive fanbase.</p>
+            </div>
+            <div class="card">
+                <img src="img/sunderland.png" alt="Sunderland logo" class="club-logo" style="border-color: #eb172b;">
+                <h3>Sunderland AFC</h3>
+                <p>Known for their incredible stadium and loyal supporters.</p>
+            </div>
+            <div class="card">
+                <img src="img/sheffield.png" alt="Sheffield Wednesday logo" class="club-logo" style="border-color: #0e1e5b;"> 
+                <h3>Sheffield Wed.</h3>
+                <p>One of the oldest professional football clubs in the world.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Created by Santiago Andrade Ordoñez - 2026</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
