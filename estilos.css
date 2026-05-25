@@ -307,6 +307,39 @@ footer {
     .hero { height: 50vh; }
     .hero h2 { font-size: 2rem; }
     .club-container { gap: 60px; }
+
+    /* =========================================
+   CORRECCIÓN SECCIÓN CULTURE EN MÓVILES
+   ========================================= */
+@media screen and (max-width: 768px) {
+    
+    
+    .culture, 
+    .culture-section {
+        padding: 30px 15px; 
+    }
+
+   
+    .culture-box, 
+    .card-culture {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    
+    .culture-box img,
+    .culture img {
+        width: 100% !important;  
+        max-width: 380px;        
+        height: auto !important;  
+        margin: 0 auto 15px;     
+        border-radius: 8px;      
+        display: block;          
+        object-fit: cover;       
+    }
+}
 }
 /* =========================================
    HISTORY
